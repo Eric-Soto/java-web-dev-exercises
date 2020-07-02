@@ -10,7 +10,10 @@ public class Course {
     private String subject;
     private ArrayList teachers;
 
-
+    public Course(String math, int i) {
+        this.name = name;
+        this.credits = credits;
+    }
 
     public String getName() {
         return name;
